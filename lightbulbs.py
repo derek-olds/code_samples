@@ -43,8 +43,6 @@ def modulo_bulbs(bit_list):
 
   Arguments:
     bit_list: list, list of ones and zeroes that represent lightbulbs.
-    count: int, the number of times a bit switch has been done. Default is
-           zero. This value should only be used by the recursion logic.
 
   Returns:
     count: int, number of opperations needed to switch all bits to one.
