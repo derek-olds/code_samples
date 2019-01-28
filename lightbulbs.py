@@ -6,7 +6,8 @@
 
 def recursive_bulbs(bit_list, count=0):
   """This function solves the problem using brute force and recursion. This
-  seems to be an example of a case where you shouldn't use recursion. I estimate  speed and and memory to be O(n!).
+  seems to be an example of a case where you shouldn't use recursion. I 
+  estimatie speed and and memory to be O(n!).
 
   Arguments:
     bit_list: list, list of ones and zeroes that represent lightbulbs.
