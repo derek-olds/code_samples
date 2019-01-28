@@ -5,10 +5,8 @@
 # the state of all bulbs to the right of the current bulb.
 
 def recursive_bulbs(bit_list, count=0):
-  """This function solves the problem using recursion. It's not ideal due to
-  The ammount of memory used, but it's a good example of recursion. This is
-  not an efficient solution. I estimate it at O(n) for speed and O(n log n) for
-  memory.
+  """This function solves the problem using brute force and recursion. This
+  seems to be an example of a case where you shouldn't use recursion. I estimate  speed and and memory to be O(n!).
 
   Arguments:
     bit_list: list, list of ones and zeroes that represent lightbulbs.
@@ -39,7 +37,7 @@ def modulo_bulbs(bit_list):
   """This function solves the problem using the formula (val + count) % 2. As
   you parse the list left to right, if val + count is divisible by two then the
   count is incremented. This is much more efficient. It is O(n) for speed, and
-  memory.
+  O(1) for memory.
 
   Arguments:
     bit_list: list, list of ones and zeroes that represent lightbulbs.
